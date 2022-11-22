@@ -1,0 +1,160 @@
+
+Rubellite_Bear_Cavecolored.png
+size: 1977,1390
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back_gem_1
+  rotate: false
+  xy: 618, 542
+  size: 371, 395
+  orig: 371, 395
+  offset: 0, 0
+  index: -1
+back_gem_2
+  rotate: true
+  xy: 1661, 52
+  size: 356, 314
+  orig: 356, 314
+  offset: 0, 0
+  index: -1
+back_gem_3
+  rotate: true
+  xy: 1686, 1027
+  size: 361, 146
+  orig: 361, 146
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 2, 325
+  size: 1063, 614
+  orig: 1063, 614
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 618, 939
+  size: 449, 383
+  orig: 451, 383
+  offset: 0, 0
+  index: -1
+jaw
+  rotate: false
+  xy: 1472, 410
+  size: 377, 228
+  orig: 377, 228
+  offset: 0, 0
+  index: -1
+l_back_leg_foot
+  rotate: false
+  xy: 618, 325
+  size: 283, 215
+  orig: 283, 219
+  offset: 0, 3
+  index: -1
+l_back_leg_knee
+  rotate: true
+  xy: 859, 21
+  size: 302, 381
+  orig: 302, 381
+  offset: 0, 0
+  index: -1
+l_back_leg_thigh
+  rotate: true
+  xy: 991, 550
+  size: 387, 378
+  orig: 388, 378
+  offset: 0, 0
+  index: -1
+l_ear
+  rotate: false
+  xy: 1851, 545
+  size: 105, 94
+  orig: 105, 94
+  offset: 0, 0
+  index: -1
+l_front_leg_ankle
+  rotate: true
+  xy: 1185, 330
+  size: 218, 285
+  orig: 218, 285
+  offset: 0, 0
+  index: -1
+l_front_leg_foot
+  rotate: true
+  xy: 1834, 1129
+  size: 259, 129
+  orig: 259, 129
+  offset: 0, 0
+  index: -1
+l_front_leg_knee
+  rotate: true
+  xy: 2, 9
+  size: 314, 437
+  orig: 314, 519
+  offset: 0, 82
+  index: -1
+l_front_leg_thigh
+  rotate: true
+  xy: 441, 2
+  size: 321, 416
+  orig: 321, 416
+  offset: 0, 0
+  index: -1
+r_back_leg_foot
+  rotate: false
+  xy: 1677, 781
+  size: 262, 237
+  orig: 262, 238
+  offset: 0, 1
+  index: -1
+r_back_leg_knee
+  rotate: false
+  xy: 1371, 640
+  size: 304, 378
+  orig: 304, 378
+  offset: 0, 0
+  index: -1
+r_back_leg_thigh
+  rotate: false
+  xy: 1340, 1020
+  size: 344, 368
+  orig: 344, 368
+  offset: 0, 0
+  index: -1
+r_ear
+  rotate: false
+  xy: 1851, 452
+  size: 90, 91
+  orig: 91, 91
+  offset: 1, 0
+  index: -1
+r_front_leg_ankle
+  rotate: true
+  xy: 903, 331
+  size: 209, 280
+  orig: 209, 280
+  offset: 0, 0
+  index: -1
+r_front_leg_foot
+  rotate: false
+  xy: 1677, 641
+  size: 249, 138
+  orig: 250, 138
+  offset: 0, 0
+  index: -1
+r_front_leg_knee
+  rotate: true
+  xy: 1242, 3
+  size: 325, 417
+  orig: 325, 417
+  offset: 0, 0
+  index: -1
+r_front_leg_thigh
+  rotate: false
+  xy: 1003, 983
+  size: 335, 405
+  orig: 335, 405
+  offset: 0, 0
+  index: -1

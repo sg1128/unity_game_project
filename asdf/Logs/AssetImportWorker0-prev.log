@@ -1,0 +1,499 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 16297 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Desktop/unity/asdf
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+13381
+Successfully changed project path to: E:/Desktop/unity/asdf
+E:/Desktop/unity/asdf
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 65.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Desktop/unity/asdf/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007695 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.699 seconds
+Domain Reload Profiling:
+	ReloadAssembly (699ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (490ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (148ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (189ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006513 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.295 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1296ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1023ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2695 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.8 MB.
+System memory in use after: 123.5 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3109.
+Total: 3.645800 ms (FindLiveObjects: 0.190500 ms CreateObjectMapping: 0.107900 ms MarkObjects: 2.504800 ms  DeleteObjects: 0.841800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/MonsterLove/Runtime/MonsterLove.StateMachine.Runtime.asmdef
+  artifactKey: Guid(39f9fc2c98cf6654498562b4bdd17a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Runtime/MonsterLove.StateMachine.Runtime.asmdef using Guid(39f9fc2c98cf6654498562b4bdd17a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883667d7a5a204d8d6980fdeeae0bd1a') in 0.029360 seconds 
+  Import took 0.044952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.363008 seconds.
+  path: Assets/MonsterLove/Tests/Runtime/TestChangeFromTransition.cs
+  artifactKey: Guid(edc9ab4afa17406b8cdfe574960c6177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Runtime/TestChangeFromTransition.cs using Guid(edc9ab4afa17406b8cdfe574960c6177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebeab7e926bd0c46186f19b9e197e41') in 0.008993 seconds 
+  Import took 0.012749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028725 seconds.
+  path: Assets/MonsterLove/Tests/Runtime/TestChangeAsyncOverwrite.cs
+  artifactKey: Guid(1a082dc9366ca784087bde0dde49a5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Runtime/TestChangeAsyncOverwrite.cs using Guid(1a082dc9366ca784087bde0dde49a5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a531e49f198e787ecc54fc3f814fc10') in 0.002417 seconds 
+  Import took 0.028048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003531 seconds.
+  path: Assets/MonsterLove/Tests/Editor/TestDerivedFromSuperClass.cs
+  artifactKey: Guid(61f4fd153167fd343a371f18957007dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Editor/TestDerivedFromSuperClass.cs using Guid(61f4fd153167fd343a371f18957007dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06109fc924db9300eab071a53035866') in 0.002411 seconds 
+  Import took 0.005854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018889 seconds.
+  path: Assets/MonsterLove/Tests/Editor/TestStateClassTypesMismatchDriver.cs
+  artifactKey: Guid(ac06595e9bcd40348af830ec6a29a7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Editor/TestStateClassTypesMismatchDriver.cs using Guid(ac06595e9bcd40348af830ec6a29a7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b58e73005137af94698ab5e6a326e86') in 0.002799 seconds 
+  Import took 0.006479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003201 seconds.
+  path: Assets/MonsterLove/Tests/Runtime/TestChangeAsyncSafe.cs
+  artifactKey: Guid(6ba617b22bb510241b31b54b32315873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Runtime/TestChangeAsyncSafe.cs using Guid(6ba617b22bb510241b31b54b32315873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b7538051fa1df48442c35928e3a7eb') in 0.002337 seconds 
+  Import took 0.005899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002428 seconds.
+  path: Assets/MonsterLove/Samples/Scripts/Perf
+  artifactKey: Guid(f34f140b3438bc944beff20f0b786636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Samples/Scripts/Perf using Guid(f34f140b3438bc944beff20f0b786636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c338349be6ca19f0eb50bf0be59175') in 0.002470 seconds 
+  Import took 0.022806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003313 seconds.
+  path: Assets/MonsterLove/Tests/Editor/TestStateEngineInitialization.cs
+  artifactKey: Guid(d88daf46dc6100c44a16b31a04a34481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Editor/TestStateEngineInitialization.cs using Guid(d88daf46dc6100c44a16b31a04a34481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0686b68725ce8a0ec9d77c0e496165') in 0.002410 seconds 
+  Import took 0.013747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005192 seconds.
+  path: Assets/MonsterLove/Tests/Editor/TestCustomDriver.cs
+  artifactKey: Guid(9ac0e8e3b6264af6ad5122d174f3e4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Editor/TestCustomDriver.cs using Guid(9ac0e8e3b6264af6ad5122d174f3e4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0deed7bc957e4de8596165c39cf1365d') in 0.002687 seconds 
+  Import took 0.012979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003306 seconds.
+  path: Assets/MonsterLove/Tests/Editor/TestDriverLifecycle.cs
+  artifactKey: Guid(1ef0a3dffdbf4a6e8c8ff686a0b6efa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Editor/TestDriverLifecycle.cs using Guid(1ef0a3dffdbf4a6e8c8ff686a0b6efa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cb1576c551e4cb6905aa24f8dcde92') in 0.002398 seconds 
+  Import took 0.005883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016991 seconds.
+  path: Assets/MonsterLove/Samples/Scripts/ExampleBasic.cs
+  artifactKey: Guid(e1b8c2ce0ae416a4ebf4865c20d2d12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Samples/Scripts/ExampleBasic.cs using Guid(e1b8c2ce0ae416a4ebf4865c20d2d12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecedfb8456326da7393cb80b8a5c38df') in 0.002451 seconds 
+  Import took 0.018107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004872 seconds.
+  path: Assets/MonsterLove/Samples/Scripts
+  artifactKey: Guid(5a0f0a984818fcf4db10db5d5455492c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Samples/Scripts using Guid(5a0f0a984818fcf4db10db5d5455492c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83c0a8b70d97b65637c4454934f12cf') in 0.018956 seconds 
+  Import took 0.022423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003026 seconds.
+  path: Assets/MonsterLove/Samples/StateMachine_Advanced.unity
+  artifactKey: Guid(fa60728e35284674e88aa2ae6df84576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Samples/StateMachine_Advanced.unity using Guid(fa60728e35284674e88aa2ae6df84576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec92a4c57caab1d81c27439d91723d7') in 0.011317 seconds 
+  Import took 0.029874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003612 seconds.
+  path: Assets/MonsterLove/Tests/Runtime/ClassWithBasicStates.cs
+  artifactKey: Guid(f41bf36ff667bf844808b5e9fa28af3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Runtime/ClassWithBasicStates.cs using Guid(f41bf36ff667bf844808b5e9fa28af3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67197b0749110be56ac8186f5e28b088') in 0.002541 seconds 
+  Import took 0.012602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003186 seconds.
+  path: Assets/MonsterLove/Tests/Editor/MonsterLove.StateMachine.Tests.Editor.asmdef
+  artifactKey: Guid(7a05261385aac3941b3b93eaf9a30bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Editor/MonsterLove.StateMachine.Tests.Editor.asmdef using Guid(7a05261385aac3941b3b93eaf9a30bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea89a4b7ec40d6511224ff44677bcda') in 0.002495 seconds 
+  Import took 0.007958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003246 seconds.
+  path: Assets/MonsterLove/Samples/StressTest.unity
+  artifactKey: Guid(838eb45cb78a5f94eaf4f72ef961a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Samples/StressTest.unity using Guid(838eb45cb78a5f94eaf4f72ef961a72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b64bd55254ae0219182a648b356915d') in 0.002589 seconds 
+  Import took 0.005939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002774 seconds.
+  path: Assets/MonsterLove/Tests/Runtime
+  artifactKey: Guid(4f46855213027aa4c83ef9e551448ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Runtime using Guid(4f46855213027aa4c83ef9e551448ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd7a10c195890dbbb21db71a2f2455f') in 0.002574 seconds 
+  Import took 0.006430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003279 seconds.
+  path: Assets/MonsterLove/Samples/Scripts/Item.cs
+  artifactKey: Guid(0f92323e092843a7a057ef31db09f92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Samples/Scripts/Item.cs using Guid(0f92323e092843a7a057ef31db09f92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50014ce6b880952b34d243f0814ca6b0') in 0.002338 seconds 
+  Import took 0.010757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023441 seconds.
+  path: Assets/MonsterLove/Runtime/StateMachine.cs
+  artifactKey: Guid(6da868d186fa05342bd37fb8e63d3666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Runtime/StateMachine.cs using Guid(6da868d186fa05342bd37fb8e63d3666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2961b74824907a8387b668a7cd96d4') in 0.002941 seconds 
+  Import took 0.020082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038629 seconds.
+  path: Assets/MonsterLove/Samples/Scripts/ExampleAdvanced.cs
+  artifactKey: Guid(c086227322664a1ab09daecc44f8e5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Samples/Scripts/ExampleAdvanced.cs using Guid(c086227322664a1ab09daecc44f8e5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b106a5c49d10019c365f1afa0b03faab') in 0.002645 seconds 
+  Import took 0.016969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003632 seconds.
+  path: Assets/MonsterLove/Tests/Runtime/TestChangeState.cs
+  artifactKey: Guid(4306d2f2aa71459c9ea87a83001fd117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Runtime/TestChangeState.cs using Guid(4306d2f2aa71459c9ea87a83001fd117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf4b3bd94cc52604e1d4ad6426f2eaa') in 0.002438 seconds 
+  Import took 0.014452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002547 seconds.
+  path: Assets/MonsterLove/Tests
+  artifactKey: Guid(9bb6984bd108d8f4f8418c4f37e0ca0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests using Guid(9bb6984bd108d8f4f8418c4f37e0ca0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de9da440cbf8e889dfd84c56ad3d945') in 0.002328 seconds 
+  Import took 0.005906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003138 seconds.
+  path: Assets/MonsterLove/Tests/Runtime/MonsterLove.StateMachine.Tests.Runtime.asmdef
+  artifactKey: Guid(f9fb370cdd6625f4fb8a0dec85124b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Runtime/MonsterLove.StateMachine.Tests.Runtime.asmdef using Guid(f9fb370cdd6625f4fb8a0dec85124b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f5718447841e8fd780a1e73dfdaa27') in 0.002328 seconds 
+  Import took 0.031937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003810 seconds.
+  path: Assets/MonsterLove/Samples/Scripts/Perf/StressTest.cs
+  artifactKey: Guid(5feefe5bbb45416ca0f4953ecfff49da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Samples/Scripts/Perf/StressTest.cs using Guid(5feefe5bbb45416ca0f4953ecfff49da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221b71f27fd76f09e6f739779cacbbf3') in 0.002635 seconds 
+  Import took 0.033073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015896 seconds.
+  path: Assets/MonsterLove/Runtime/Drivers/StateDriverRunner.cs
+  artifactKey: Guid(8580b7087fdeecd4fb42025a957800f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Runtime/Drivers/StateDriverRunner.cs using Guid(8580b7087fdeecd4fb42025a957800f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a4ec35fe3d029c4ecf1ebc4ededa7a') in 0.002483 seconds 
+  Import took 0.023626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003017 seconds.
+  path: Assets/MonsterLove/Samples/StateMachine_Basic.unity
+  artifactKey: Guid(55303e058e1539a40b0effa20cab4988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Samples/StateMachine_Basic.unity using Guid(55303e058e1539a40b0effa20cab4988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd093d7ea4c990682189afb4c9e4aab1b') in 0.003606 seconds 
+  Import took 0.009639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003804 seconds.
+  path: Assets/MonsterLove/Tests/Editor/TestEmptyDriver.cs
+  artifactKey: Guid(d6391192757a422793fc48ab8a3fd5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Editor/TestEmptyDriver.cs using Guid(d6391192757a422793fc48ab8a3fd5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50a0b514ff621753b3697994ef93112') in 0.002881 seconds 
+  Import took 0.008733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003677 seconds.
+  path: Assets/MonsterLove/Tests/Editor/TestMultipleSubscribers.cs
+  artifactKey: Guid(871e6dc4ae40b964f999b5a2b4b88147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Editor/TestMultipleSubscribers.cs using Guid(871e6dc4ae40b964f999b5a2b4b88147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c8d1fa27e84d8f3302f5f58ac56315') in 0.002621 seconds 
+  Import took 0.013391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003422 seconds.
+  path: Assets/MonsterLove/Tests/Editor/TestNonStandardEnums.cs
+  artifactKey: Guid(58f27538abe6462f9ed6996603c5017b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Editor/TestNonStandardEnums.cs using Guid(58f27538abe6462f9ed6996603c5017b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3b405dcc227cd12ae6bcb9db562380') in 0.002462 seconds 
+  Import took 0.006580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003510 seconds.
+  path: Assets/MonsterLove/Tests/Runtime/TestChangeAsyncCustomDriver.cs
+  artifactKey: Guid(7b734601d42952c488c972b05398a234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Runtime/TestChangeAsyncCustomDriver.cs using Guid(7b734601d42952c488c972b05398a234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c192c5c0d6032c99151a96e01510b5ab') in 0.002544 seconds 
+  Import took 0.030027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003709 seconds.
+  path: Assets/MonsterLove/Runtime/StateMachineRunner.cs
+  artifactKey: Guid(5e2a0c63ef281b44a823365c3d5bffcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Runtime/StateMachineRunner.cs using Guid(5e2a0c63ef281b44a823365c3d5bffcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18888605cfdea0b7dfb50cb7084dcb88') in 0.002564 seconds 
+  Import took 0.046394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002647 seconds.
+  path: Assets/MonsterLove/Samples/Prefabs
+  artifactKey: Guid(1b25c0e4b36a737478915ab5422e5775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Samples/Prefabs using Guid(1b25c0e4b36a737478915ab5422e5775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b039cb38cde0bc92d98b937378d4684') in 0.002211 seconds 
+  Import took 0.013853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003532 seconds.
+  path: Assets/MonsterLove/Tests/Runtime/TestMonoBehaviourUpdates.cs
+  artifactKey: Guid(87d1cfcf5f33f2441b2b848c6053dbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Runtime/TestMonoBehaviourUpdates.cs using Guid(87d1cfcf5f33f2441b2b848c6053dbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747727400cb7196428c454a83cb2cd99') in 0.002443 seconds 
+  Import took 0.005884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003324 seconds.
+  path: Assets/MonsterLove/Runtime/Events/StateEvent.cs
+  artifactKey: Guid(a130ac4a15eb4a0cabf018a385e09999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Runtime/Events/StateEvent.cs using Guid(a130ac4a15eb4a0cabf018a385e09999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9fc8b24e0fb9a55e4f65254302e5b0') in 0.002818 seconds 
+  Import took 0.006667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003533 seconds.
+  path: Assets/MonsterLove/Tests/Editor/TestDisabledComponent.cs
+  artifactKey: Guid(ee524972135f5c140a4a5a973cd64ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Editor/TestDisabledComponent.cs using Guid(ee524972135f5c140a4a5a973cd64ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93f06ff270bd6a6dc67ba325b17a6c9') in 0.002437 seconds 
+  Import took 0.017313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002618 seconds.
+  path: Assets/MonsterLove/Runtime/Events
+  artifactKey: Guid(26a1a054d8aa3a94cac21be251c4e634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Runtime/Events using Guid(26a1a054d8aa3a94cac21be251c4e634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fd70638bae47abbba552f207314b1f') in 0.002323 seconds 
+  Import took 0.011191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003329 seconds.
+  path: Assets/MonsterLove/Tests/Runtime/ClassDerivedFromSuperClass.cs
+  artifactKey: Guid(56b834ac2387fd9428fa8e3d03e15af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Runtime/ClassDerivedFromSuperClass.cs using Guid(56b834ac2387fd9428fa8e3d03e15af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f699651c2f192ca95bc6017a97016d8e') in 0.002321 seconds 
+  Import took 0.005901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005370 seconds.
+  path: Assets/MonsterLove/Runtime/StateMapping.cs
+  artifactKey: Guid(0a9d115393f24d76a917d05ac6a87127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Runtime/StateMapping.cs using Guid(0a9d115393f24d76a917d05ac6a87127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff8a2fb3deda3cdc166b48681e94d96') in 0.002369 seconds 
+  Import took 0.034033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002753 seconds.
+  path: Assets/MonsterLove/Tests/Editor
+  artifactKey: Guid(9c8afd02806bc1d4cab6182962b1ccc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Editor using Guid(9c8afd02806bc1d4cab6182962b1ccc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0440fd0c2bb0f914abf34355928d77bf') in 0.002246 seconds 
+  Import took 0.012614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003405 seconds.
+  path: Assets/MonsterLove/Tests/Editor/TestCachedDriver.cs
+  artifactKey: Guid(597262340b854411b6859c314743cbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Editor/TestCachedDriver.cs using Guid(597262340b854411b6859c314743cbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b42eba6637f52cf05655c7f7437106b') in 0.002340 seconds 
+  Import took 0.005775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002510 seconds.
+  path: Assets/MonsterLove/Runtime/Drivers
+  artifactKey: Guid(6d19f3162564ec54aa39985d42873958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Runtime/Drivers using Guid(6d19f3162564ec54aa39985d42873958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b581f91f92877e181da8aa7d83af76f5') in 0.002520 seconds 
+  Import took 0.006128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003502 seconds.
+  path: Assets/MonsterLove/Tests/Editor/TestInheritedDriver.cs
+  artifactKey: Guid(7fe6b2aed376482ab4ab9842c0e791b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Editor/TestInheritedDriver.cs using Guid(7fe6b2aed376482ab4ab9842c0e791b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20250da9e3a027cbf6dc59838b629e7') in 0.002329 seconds 
+  Import took 0.005946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003301 seconds.
+  path: Assets/MonsterLove/Samples/Scripts/MonsterLove.StateMachine.Samples.asmdef
+  artifactKey: Guid(64e8a9da2ff291b458d3a67fda350daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Samples/Scripts/MonsterLove.StateMachine.Samples.asmdef using Guid(64e8a9da2ff291b458d3a67fda350daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75a691fa5670f51a92b695bc1656980') in 0.002555 seconds 
+  Import took 0.006067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003578 seconds.
+  path: Assets/MonsterLove/Runtime/Drivers/StateDriverUnity.cs
+  artifactKey: Guid(de0d37dba910471099253a3cc12484fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Runtime/Drivers/StateDriverUnity.cs using Guid(de0d37dba910471099253a3cc12484fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7358608bbd7530c60e99bd6309303c65') in 0.002951 seconds 
+  Import took 0.006622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003523 seconds.
+  path: Assets/MonsterLove/Samples/Scripts/ColorChanger.cs
+  artifactKey: Guid(a57cafd734b9e8d4da74fd1b24e6107e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Samples/Scripts/ColorChanger.cs using Guid(a57cafd734b9e8d4da74fd1b24e6107e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a5bd43fc3cf965f523b3303c1ac25b') in 0.002516 seconds 
+  Import took 0.006311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013461 seconds.
+  path: Assets/MonsterLove/Tests/Editor/TestBasicTransitions.cs
+  artifactKey: Guid(899062ccff9246a4c8873c29a4ac6bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MonsterLove/Tests/Editor/TestBasicTransitions.cs using Guid(899062ccff9246a4c8873c29a4ac6bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3532d159a585e8521972c1d1b51768') in 0.002738 seconds 
+  Import took 0.016101 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

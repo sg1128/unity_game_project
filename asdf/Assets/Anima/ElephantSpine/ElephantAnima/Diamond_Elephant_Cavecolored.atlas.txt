@@ -1,0 +1,167 @@
+
+Diamond_Elephant_Cavecolored.png
+size: 2013,2034
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 1363
+  size: 1020, 669
+  orig: 1020, 669
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 778, 872
+  size: 489, 553
+  orig: 489, 553
+  offset: 0, 0
+  index: -1
+head_chin
+  rotate: false
+  xy: 815, 587
+  size: 468, 283
+  orig: 468, 283
+  offset: 0, 0
+  index: -1
+head_l_ear
+  rotate: false
+  xy: 2, 244
+  size: 492, 608
+  orig: 492, 608
+  offset: 0, 0
+  index: -1
+head_l_ivory
+  rotate: false
+  xy: 2, 854
+  size: 774, 507
+  orig: 775, 569
+  offset: 0, 1
+  index: -1
+head_nose
+  rotate: true
+  xy: 1024, 1375
+  size: 234, 865
+  orig: 234, 865
+  offset: 0, 0
+  index: -1
+head_r_ear
+  rotate: false
+  xy: 496, 242
+  size: 317, 610
+  orig: 317, 610
+  offset: 0, 0
+  index: -1
+head_r_ivory
+  rotate: false
+  xy: 1024, 1611
+  size: 712, 421
+  orig: 712, 476
+  offset: 0, 0
+  index: -1
+l_front_leg_calf
+  rotate: true
+  xy: 855, 8
+  size: 241, 394
+  orig: 241, 397
+  offset: 0, 3
+  index: -1
+l_front_leg_foot
+  rotate: false
+  xy: 1497, 141
+  size: 259, 251
+  orig: 259, 251
+  offset: 0, 0
+  index: -1
+l_front_leg_knee
+  rotate: true
+  xy: 1333, 703
+  size: 265, 321
+  orig: 265, 321
+  offset: 0, 0
+  index: -1
+l_front_leg_thigh
+  rotate: false
+  xy: 1182, 252
+  size: 313, 333
+  orig: 313, 333
+  offset: 0, 0
+  index: -1
+r_back_leg_calf
+  rotate: false
+  xy: 1738, 1615
+  size: 248, 417
+  orig: 248, 417
+  offset: 0, 0
+  index: -1
+r_back_leg_foot
+  rotate: false
+  xy: 1251, 19
+  size: 241, 231
+  orig: 241, 231
+  offset: 0, 0
+  index: -1
+r_back_leg_thigh
+  rotate: true
+  xy: 815, 251
+  size: 334, 365
+  orig: 334, 367
+  offset: 0, 2
+  index: -1
+r_front_leg_calf
+  rotate: true
+  xy: 2, 2
+  size: 240, 359
+  orig: 240, 359
+  offset: 0, 0
+  index: -1
+r_front_leg_foot
+  rotate: false
+  xy: 1758, 189
+  size: 251, 249
+  orig: 251, 249
+  offset: 0, 0
+  index: -1
+r_front_leg_knee
+  rotate: false
+  xy: 1497, 394
+  size: 258, 307
+  orig: 258, 311
+  offset: 0, 3
+  index: -1
+r_front_leg_thigh
+  rotate: true
+  xy: 1757, 440
+  size: 271, 254
+  orig: 271, 254
+  offset: 0, 0
+  index: -1
+tail
+  rotate: true
+  xy: 363, 69
+  size: 171, 490
+  orig: 171, 490
+  offset: 0, 0
+  index: -1
+ㅣ_back_leg_calf
+  rotate: false
+  xy: 1700, 977
+  size: 249, 396
+  orig: 249, 396
+  offset: 0, 0
+  index: -1
+ㅣ_back_leg_foot
+  rotate: true
+  xy: 1656, 713
+  size: 255, 223
+  orig: 255, 223
+  offset: 0, 0
+  index: -1
+ㅣ_back_leg_thigh
+  rotate: false
+  xy: 1333, 970
+  size: 365, 403
+  orig: 365, 403
+  offset: 0, 0
+  index: -1

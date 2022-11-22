@@ -1,0 +1,293 @@
+
+Topaz_Wolf_Cavecolored.png
+size: 1868,801
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back_gem_1
+  rotate: true
+  xy: 1099, 228
+  size: 221, 79
+  orig: 221, 79
+  offset: 0, 0
+  index: -1
+back_gem_2
+  rotate: false
+  xy: 510, 2
+  size: 236, 123
+  orig: 237, 123
+  offset: 1, 0
+  index: -1
+back_gem_3
+  rotate: true
+  xy: 435, 286
+  size: 144, 54
+  orig: 144, 54
+  offset: 0, 0
+  index: -1
+back_gem_4
+  rotate: false
+  xy: 815, 232
+  size: 282, 217
+  orig: 282, 217
+  offset: 0, 0
+  index: -1
+back_gem_5
+  rotate: true
+  xy: 1777, 349
+  size: 198, 88
+  orig: 198, 88
+  offset: 0, 0
+  index: -1
+back_gem_6
+  rotate: false
+  xy: 1576, 320
+  size: 186, 84
+  orig: 186, 84
+  offset: 0, 0
+  index: -1
+chest
+  rotate: false
+  xy: 2, 432
+  size: 491, 367
+  orig: 492, 367
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 495, 255
+  size: 318, 260
+  orig: 318, 260
+  offset: 0, 0
+  index: -1
+head_chin
+  rotate: false
+  xy: 1180, 297
+  size: 218, 146
+  orig: 223, 146
+  offset: 1, 0
+  index: -1
+l_back_leg_ankle
+  rotate: false
+  xy: 1400, 287
+  size: 69, 156
+  orig: 73, 156
+  offset: 4, 0
+  index: -1
+l_back_leg_foot
+  rotate: true
+  xy: 1770, 230
+  size: 117, 96
+  orig: 118, 96
+  offset: 0, 0
+  index: -1
+l_back_leg_gem
+  rotate: false
+  xy: 1156, 505
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+l_back_leg_knee
+  rotate: true
+  xy: 1580, 406
+  size: 141, 195
+  orig: 142, 195
+  offset: 0, 0
+  index: -1
+l_back_leg_thigh
+  rotate: true
+  xy: 868, 584
+  size: 215, 370
+  orig: 216, 370
+  offset: 0, 0
+  index: -1
+l_ear
+  rotate: false
+  xy: 1471, 269
+  size: 103, 136
+  orig: 103, 136
+  offset: 0, 0
+  index: -1
+l_front_leg_ankle
+  rotate: false
+  xy: 1489, 17
+  size: 91, 131
+  orig: 92, 131
+  offset: 0, 0
+  index: -1
+l_front_leg_foot
+  rotate: true
+  xy: 1582, 33
+  size: 127, 91
+  orig: 127, 91
+  offset: 0, 0
+  index: -1
+l_front_leg_gem
+  rotate: true
+  xy: 995, 41
+  size: 77, 75
+  orig: 78, 75
+  offset: 1, 0
+  index: -1
+r_front_leg_gem
+  rotate: true
+  xy: 995, 41
+  size: 77, 75
+  orig: 78, 75
+  offset: 1, 0
+  index: -1
+l_front_leg_knee
+  rotate: true
+  xy: 798, 120
+  size: 110, 272
+  orig: 110, 277
+  offset: 0, 0
+  index: -1
+l_front_leg_thigh
+  rotate: true
+  xy: 1180, 8
+  size: 142, 197
+  orig: 144, 197
+  offset: 1, 0
+  index: -1
+l_shoulder_gem_1
+  rotate: true
+  xy: 1072, 37
+  size: 189, 106
+  orig: 189, 106
+  offset: 0, 0
+  index: -1
+l_shoulder_gem_2
+  rotate: true
+  xy: 270, 16
+  size: 173, 238
+  orig: 173, 238
+  offset: 0, 0
+  index: -1
+l_shoulder_gem_3
+  rotate: true
+  xy: 868, 451
+  size: 131, 286
+  orig: 131, 286
+  offset: 0, 0
+  index: -1
+neck
+  rotate: true
+  xy: 495, 517
+  size: 282, 371
+  orig: 282, 371
+  offset: 0, 0
+  index: -1
+neck_fur
+  rotate: true
+  xy: 1389, 150
+  size: 117, 136
+  orig: 117, 136
+  offset: 0, 0
+  index: -1
+pelvis
+  rotate: false
+  xy: 1581, 549
+  size: 283, 250
+  orig: 283, 250
+  offset: 0, 0
+  index: -1
+r_back_leg_ankle
+  rotate: true
+  xy: 1576, 255
+  size: 63, 150
+  orig: 63, 150
+  offset: 0, 0
+  index: -1
+r_back_leg_foot
+  rotate: false
+  xy: 1662, 166
+  size: 106, 87
+  orig: 106, 87
+  offset: 0, 0
+  index: -1
+r_back_leg_gem
+  rotate: false
+  xy: 1771, 151
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+r_back_leg_knee
+  rotate: true
+  xy: 1180, 152
+  size: 143, 207
+  orig: 143, 208
+  offset: 0, 1
+  index: -1
+r_back_leg_thigh
+  rotate: true
+  xy: 1240, 604
+  size: 195, 339
+  orig: 195, 339
+  offset: 0, 0
+  index: -1
+r_ear
+  rotate: false
+  xy: 1379, 19
+  size: 108, 129
+  orig: 109, 129
+  offset: 0, 0
+  index: -1
+r_front_leg_ankle
+  rotate: true
+  xy: 1527, 162
+  size: 91, 133
+  orig: 92, 134
+  offset: 0, 0
+  index: -1
+r_front_leg_foot
+  rotate: true
+  xy: 1675, 37
+  size: 127, 94
+  orig: 127, 95
+  offset: 0, 0
+  index: -1
+r_front_leg_knee
+  rotate: true
+  xy: 748, 12
+  size: 106, 245
+  orig: 106, 245
+  offset: 0, 0
+  index: -1
+r_front_leg_thigh
+  rotate: true
+  xy: 1240, 445
+  size: 157, 240
+  orig: 157, 240
+  offset: 0, 0
+  index: -1
+shoulder_gem_1
+  rotate: true
+  xy: 1482, 407
+  size: 195, 96
+  orig: 195, 96
+  offset: 0, 0
+  index: -1
+shoulder_gem_2
+  rotate: true
+  xy: 2, 31
+  size: 158, 266
+  orig: 158, 266
+  offset: 0, 0
+  index: -1
+shoulder_gem_3
+  rotate: true
+  xy: 510, 127
+  size: 126, 286
+  orig: 126, 286
+  offset: 0, 0
+  index: -1
+tail
+  rotate: true
+  xy: 2, 191
+  size: 239, 431
+  orig: 239, 431
+  offset: 0, 0
+  index: -1

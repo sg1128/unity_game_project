@@ -1,0 +1,209 @@
+
+Peridot_Deer_Cavecolored.png
+size: 1691,687
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 401, 350
+  size: 490, 335
+  orig: 490, 336
+  offset: 0, 1
+  index: -1
+head
+  rotate: false
+  xy: 456, 126
+  size: 276, 222
+  orig: 276, 223
+  offset: 0, 1
+  index: -1
+head_neck_hair
+  rotate: true
+  xy: 893, 386
+  size: 299, 444
+  orig: 300, 444
+  offset: 0, 0
+  index: -1
+l_back_leg_ankle
+  rotate: false
+  xy: 1229, 8
+  size: 117, 75
+  orig: 117, 75
+  offset: 0, 0
+  index: -1
+l_back_leg_calf
+  rotate: true
+  xy: 1339, 374
+  size: 80, 173
+  orig: 82, 175
+  offset: 1, 1
+  index: -1
+l_back_leg_hoof
+  rotate: true
+  xy: 1348, 22
+  size: 61, 79
+  orig: 61, 79
+  offset: 0, 0
+  index: -1
+l_back_leg_knee
+  rotate: true
+  xy: 1483, 235
+  size: 132, 135
+  orig: 133, 135
+  offset: 0, 0
+  index: -1
+l_back_leg_thigh
+  rotate: false
+  xy: 734, 99
+  size: 173, 249
+  orig: 173, 250
+  offset: 0, 0
+  index: -1
+l_ear
+  rotate: false
+  xy: 1323, 237
+  size: 158, 135
+  orig: 158, 135
+  offset: 0, 0
+  index: -1
+l_front_leg_ankle
+  rotate: false
+  xy: 1446, 43
+  size: 109, 100
+  orig: 110, 100
+  offset: 1, 0
+  index: -1
+l_front_leg_calf
+  rotate: true
+  xy: 1286, 159
+  size: 76, 155
+  orig: 76, 163
+  offset: 0, 7
+  index: -1
+l_front_leg_hoof
+  rotate: true
+  xy: 837, 37
+  size: 60, 70
+  orig: 61, 71
+  offset: 1, 1
+  index: -1
+l_front_leg_knee
+  rotate: true
+  xy: 1514, 369
+  size: 85, 159
+  orig: 86, 159
+  offset: 1, 0
+  index: -1
+l_front_leg_thigh
+  rotate: true
+  xy: 1071, 95
+  size: 147, 213
+  orig: 149, 213
+  offset: 1, 0
+  index: -1
+l_horn
+  rotate: false
+  xy: 2, 241
+  size: 397, 444
+  orig: 397, 444
+  offset: 0, 0
+  index: -1
+neck
+  rotate: true
+  xy: 1339, 456
+  size: 229, 343
+  orig: 229, 344
+  offset: 0, 0
+  index: -1
+r_back_leg_ankle
+  rotate: false
+  xy: 1506, 145
+  size: 111, 88
+  orig: 111, 88
+  offset: 0, 0
+  index: -1
+r_back_leg_calf
+  rotate: false
+  xy: 1620, 217
+  size: 69, 150
+  orig: 69, 151
+  offset: 0, 1
+  index: -1
+r_back_leg_hoof
+  rotate: false
+  xy: 1443, 159
+  size: 61, 74
+  orig: 63, 74
+  offset: 1, 0
+  index: -1
+r_back_leg_knee
+  rotate: true
+  xy: 1557, 40
+  size: 100, 109
+  orig: 102, 110
+  offset: 1, 1
+  index: -1
+r_back_leg_thigh
+  rotate: false
+  xy: 909, 142
+  size: 160, 242
+  orig: 160, 242
+  offset: 0, 0
+  index: -1
+r_ear
+  rotate: true
+  xy: 1286, 85
+  size: 72, 158
+  orig: 72, 158
+  offset: 0, 0
+  index: -1
+r_front_leg_ankle
+  rotate: false
+  xy: 729, 2
+  size: 106, 95
+  orig: 107, 95
+  offset: 1, 0
+  index: -1
+r_front_leg_calf
+  rotate: true
+  xy: 1071, 18
+  size: 75, 156
+  orig: 75, 156
+  offset: 0, 0
+  index: -1
+r_front_leg_hoof
+  rotate: false
+  xy: 1619, 142
+  size: 60, 73
+  orig: 61, 73
+  offset: 1, 0
+  index: -1
+r_front_leg_knee
+  rotate: true
+  xy: 909, 57
+  size: 83, 160
+  orig: 83, 160
+  offset: 0, 0
+  index: -1
+r_front_leg_thigh
+  rotate: true
+  xy: 1071, 244
+  size: 140, 250
+  orig: 140, 250
+  offset: 0, 0
+  index: -1
+r_horn
+  rotate: true
+  xy: 2, 17
+  size: 222, 452
+  orig: 222, 452
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 456, 15
+  size: 271, 109
+  orig: 271, 109
+  offset: 0, 0
+  index: -1
