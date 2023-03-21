@@ -110,7 +110,8 @@ public class Animal_Change : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        //if(asd.Contains(other.gameObject)){
+        //if(asd.
+        //s(other.gameObject)){
         //    return;
         //}
 
