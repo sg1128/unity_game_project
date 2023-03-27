@@ -50,6 +50,10 @@ public class DPS_fsm : MonoBehaviour
             {
                 target = null;
             }
+            if (!target.GetComponent<Enemy>().player.Contains(this.gameObject))
+            {
+                target.GetComponent<Enemy>().player.Add(this.gameObject);
+            }
         }
         if (unitmovement.selected)
         {
@@ -70,7 +74,8 @@ public class DPS_fsm : MonoBehaviour
                         }
                         if (!fight)
                         {
-                            unitmovement.GoEnemy();
+                            if(target != null)
+                                unitmovement.GoEnemy();
                         }
                     }
                     else
@@ -207,19 +212,21 @@ public class DPS_fsm : MonoBehaviour
     // target이 있는데 target이 범위내를 벗어나면 쫒아간다
     void FoundTarget()
     {
-        bool foundenemy = false;
-       for(int i=targetList.Count-1; i>=0; i--)
+        if (target != null)
         {
-            if(target == targetList[i])
+            bool foundenemy = false;
+            for (int i = targetList.Count - 1; i >= 0; i--)
             {
-                foundenemy = true;
-                break;
+                if (target == targetList[i])
+                {
+                    foundenemy = true;
+                    break;
+                }
             }
-        }
-
-        if (!foundenemy)
-        {
-            unitmovement.GoEnemy();
+            if (!foundenemy)
+            {
+                unitmovement.GoEnemy();
+            }
         }
     }
 

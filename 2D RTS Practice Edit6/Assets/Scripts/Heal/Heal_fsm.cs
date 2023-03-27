@@ -49,6 +49,10 @@ public class Heal_fsm : MonoBehaviour
             {
                 target = null;
             }
+            if (!target.GetComponent<Enemy>().player.Contains(this.gameObject))
+            {
+                target.GetComponent<Enemy>().player.Add(this.gameObject);
+            }
         }
         if (heal_unitmovement.selected)
         {
@@ -69,7 +73,8 @@ public class Heal_fsm : MonoBehaviour
                         }
                         if (!fight)
                         {
-                            heal_unitmovement.GoEnemy();
+                            if(target!=null)
+                                heal_unitmovement.GoEnemy();
                         }
                     }
                     else
@@ -211,18 +216,20 @@ public class Heal_fsm : MonoBehaviour
     void FoundTarget()
     {
         bool foundenemy = false;
-        for (int i = targetList.Count - 1; i >= 0; i--)
+        if (target != null)
         {
-            if (target == targetList[i])
+            for (int i = targetList.Count - 1; i >= 0; i--)
             {
-                foundenemy = true;
-                break;
+                if (target == targetList[i])
+                {
+                    foundenemy = true;
+                    break;
+                }
             }
-        }
-
-        if (!foundenemy)
-        {
-            heal_unitmovement.GoEnemy();
+            if (!foundenemy)
+            {
+                heal_unitmovement.GoEnemy();
+            }
         }
     }
 

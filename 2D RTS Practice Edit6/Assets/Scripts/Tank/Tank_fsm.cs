@@ -47,6 +47,10 @@ public class Tank_fsm : MonoBehaviour
             {
                 target = null;
             }
+            if (!target.GetComponent<Enemy>().player.Contains(this.gameObject))
+            {
+                target.GetComponent<Enemy>().player.Add(this.gameObject);
+            }
         }
         if (tank_unitmovement.selected)
         {
@@ -67,7 +71,8 @@ public class Tank_fsm : MonoBehaviour
                         }
                         if (!fight)
                         {
-                            tank_unitmovement.GoEnemy();
+                            if(target != null)
+                                tank_unitmovement.GoEnemy();
                         }
                     }
                     else
@@ -201,19 +206,22 @@ public class Tank_fsm : MonoBehaviour
     // target이 있는데 target이 범위내를 벗어나면 쫒아간다
     void FoundTarget()
     {
-        bool foundenemy = false;
-        for (int i = targetList.Count - 1; i >= 0; i--)
+        if (target != null)
         {
-            if (target == targetList[i])
+            bool foundenemy = false;
+            for (int i = targetList.Count - 1; i >= 0; i--)
             {
-                foundenemy = true;
-                break;
+                if (target == targetList[i])
+                {
+                    foundenemy = true;
+                    break;
+                }
             }
-        }
 
-        if (!foundenemy)
-        {
-            tank_unitmovement.GoEnemy();
+            if (!foundenemy)
+            {
+                tank_unitmovement.GoEnemy();
+            }
         }
     }
 

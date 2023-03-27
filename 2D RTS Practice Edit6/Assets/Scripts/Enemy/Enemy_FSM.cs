@@ -16,7 +16,6 @@ public class Enemy_FSM : MonoBehaviour
     public bool movement = false;
     public bool targetMove = false;
     public float shrtDis;
-    public GameObject targetDIs;
     public enum CharacterStates
     {
         Idle,
@@ -38,6 +37,7 @@ public class Enemy_FSM : MonoBehaviour
     {
         fsm.Driver.Update.Invoke();
         currentTime = Time.time - startTime;
+        Target_Setting();
     }
 
     void Idle_Enter()
@@ -46,7 +46,6 @@ public class Enemy_FSM : MonoBehaviour
     }
     void Idle_Update()
     {
-        Target_Setting();
         if (fight)
         {
             if (currentTime >= DelayTime)
@@ -93,7 +92,7 @@ public class Enemy_FSM : MonoBehaviour
     {
         // 멈추면 IDEL로 바꾸는 코드
         // 타겟이 사라지면 새로운 타겟을 찾는 코드
-        if(target == null)
+        if (target == null)
         {
             fsm.ChangeState(CharacterStates.Idle);
         }
@@ -221,6 +220,7 @@ public class Enemy_FSM : MonoBehaviour
         }
         else
         {
+            target = null;
         }
     }
 }

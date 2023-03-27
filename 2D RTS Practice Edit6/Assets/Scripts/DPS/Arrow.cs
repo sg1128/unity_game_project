@@ -14,6 +14,10 @@ public class Arrow : MonoBehaviour
         {
             gameObject.transform.position = Vector3.MoveTowards(transform.position, target.transform.position, Time.deltaTime * speed);
         }
+        if(target == null)
+        {
+            Destroy(this.gameObject);
+        }
     }
 
     public void Target_dmg(GameObject dps_target, int dps_dmg)

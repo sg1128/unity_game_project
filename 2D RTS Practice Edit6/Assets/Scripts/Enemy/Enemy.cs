@@ -9,7 +9,8 @@ public class Enemy : MonoBehaviour
     public GameObject canvas;
     RectTransform hpBar;
     Image nowHpBar;
-    public  List<GameObject> projectile = new List<GameObject>(); 
+    public List<GameObject> projectile = new List<GameObject>();
+    public List<GameObject> player = new List<GameObject>();
     public int height = 1;
     Control control;
 
@@ -64,6 +65,20 @@ public class Enemy : MonoBehaviour
     {
         if (nowHp <= 0)
         {
+            foreach(GameObject target in player)
+            {
+                if(target.tag == "dps")
+                {
+                    target.GetComponent<DPS_fsm>().target = null;
+                }else if (target.tag == "tank")
+                {
+                    target.GetComponent<Tank_fsm>().target = null;
+                }
+                else
+                {
+                    target.GetComponent<Heal_fsm>().target = null;
+                }
+            }
             Projectile_distroy();
             control.enemyllist.Remove(this.gameObject);
             Destroy(hpBar.gameObject);

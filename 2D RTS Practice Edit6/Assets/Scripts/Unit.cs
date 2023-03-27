@@ -14,7 +14,7 @@ public class Unit : MonoBehaviour
     TargetList targetlist;
     RectTransform hpBar;
     RectTransform mpBar;
-
+    UnitSelections unitSelection;
     public bool attacking = false;
     public bool switching = false;
     public float height = 1;
@@ -43,6 +43,7 @@ public class Unit : MonoBehaviour
     }
     void Start()
     {
+        unitSelection = GameObject.Find("UnitSelections").GetComponent<UnitSelections>();
         //targetlist.targetIdle.Add(this.gameObject);
         control = GameObject.Find("Object_control").GetComponent<Control>();
         SetUnitStatus(100, 10, 1,5);
@@ -102,6 +103,20 @@ public class Unit : MonoBehaviour
     {
         if(nowHp <= 0)
         {
+            unitSelection.unitList.Remove(this.gameObject);
+            unitSelection.unitsSelected.Remove(this.gameObject);
+            if (gameObject.tag == "dps")
+            {
+                gameObject.GetComponent<DPS_fsm>().target.GetComponent<Enemy>().player.Remove(this.gameObject);
+            }
+            else if (gameObject.tag == "tank")
+            {
+                gameObject.GetComponent<Tank_fsm>().target.GetComponent<Enemy>().player.Remove(this.gameObject);
+            }
+            else
+            {
+                gameObject.GetComponent<Heal_fsm>().target.GetComponent<Enemy>().player.Remove(this.gameObject);
+            }
             if (attacking == true)
             {
                 targetlist.targetAttack.Remove(this.gameObject);
@@ -139,6 +154,10 @@ public class Unit : MonoBehaviour
         {
             switching = true;
         }
+    }
+
+    void TargetReset()
+    {
 
     }
 }

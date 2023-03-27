@@ -12,6 +12,11 @@ public class Magic : MonoBehaviour
     {
         if (shoot)
             gameObject.transform.position = Vector3.MoveTowards(transform.position, target.transform.position, Time.deltaTime * speed);
+
+        if(target == null)
+        {
+            Destroy(this.gameObject);
+        }
     }
     public void Target_dmg(GameObject heal_target, int heal_dmg)
     {
